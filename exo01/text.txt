@@ -1,5 +1,3 @@
-
-
 <?php echo "<table>";
     foreach( $json as $row):?>
     <tr>
