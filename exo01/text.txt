@@ -1,0 +1,10 @@
+
+
+<?php echo "<table>";
+    foreach( $json as $row):?>
+    <tr>
+        <td>$row[id_employes]</td>
+        <td>$row[prenom]</td>
+    </tr>
+    </table>
+<?php endforeach;?>
